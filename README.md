@@ -4,7 +4,7 @@ Dear candidate,
 
 Congratulations for having passed to the challenge stage in our hiring process!
 
-This is a short 48-hour challenge to understand how you work, your thought process and metodology.
+This is a short 48-hour challenge to understand how you work, your thought process and methodology.
 You do not need to be familiar with the described problem to be able to do this challenge.
 In fact, first and foremost, we are going to focus on your reasoning and the steps you took.
 
@@ -24,7 +24,7 @@ As training data, you are given the following files (in folder `data`):
 - `train_original.txt`
 - `train_scrambled.txt`
 
-The first file contain the original (uncorrupted) text, one sentence per line. 
+The first file contains the original (uncorrupted) text, one sentence per line. 
 The second file contains the corrupted version of these sentences. 
 The goal is to write a computer program that, when presented with similar corrupted text, 
 recovers as much as possible of the original sentences. 
