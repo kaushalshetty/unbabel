@@ -1,4 +1,4 @@
-# Unbabel AI Research Challenge #2
+# Unbabel AI Research Challenge
 
 Dear candidate,
 
