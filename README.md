@@ -37,9 +37,8 @@ with the best guesses of what the original text is.
 The evaluation metric is the BLEU score between the predicted file and the original (reference) one. 
 The evaluation script is provided.
 
-When you are done, please add a folder `predictions` containing the following files:
-- a zip/tarball containing your code;
-- the output of your program, the file `test_predicted.txt` -- you may send more than one version of this output if you made several runs with different models;
+Besides making sure to have your code committed when you are done, please also add:
+- a folder `predictions` containing the output of your program in a file named `test_predicted.txt` (of course you may add more files if you made several runs with different models);
 - a short description of what you did (one or two paragraphs are enough -- we will discuss this in more detail in the interview).
 
 You can use whatever programming language you like (Python is suggested).
@@ -55,6 +54,10 @@ Feel free to ask any clarification questions you may have regarding this exercis
 ## Guidelines
 * ***Fork this _git repo_*** and add relevant files and explanations for what you feel necessary 
 (starting with a clear description of what is implemented in the README)
-* ***Send us a link to your fork*** as soon as you start working on it, and then let us know when you're done.
+* ***Add the following users to your fork as reporters***:
+  * @andre-martins
+  * @fkepler
+  * @farajian
+* ***Send us a link to your fork*** (address below) as soon as you start working on it, and then let us know when you're done.
 * If you can't finish the challenge due to unforeseen personal reasons let us know ASAP so we can adapt your deadline and/or challenge.
 * Any challenge related questions, technical or otherwise, feel free to contact us: `ai-challenge@unbabel.com`.
