@@ -58,6 +58,8 @@ Feel free to ask any clarification questions you may have regarding this exercis
   * @andre-martins
   * @fkepler
   * @farajian
+  * @austin.matthews
+  * @craigstewart
 * ***Send us a link to your fork*** (address below) as soon as you start working on it, and then let us know when you're done.
 * If you can't finish the challenge due to unforeseen personal reasons let us know ASAP so we can adapt your deadline and/or challenge.
 * Any challenge related questions, technical or otherwise, feel free to contact us: `ai-challenge@unbabel.com`.
