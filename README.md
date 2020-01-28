@@ -4,7 +4,7 @@
 To unscramble the input text file
 
 ### Noise in the data
-Random order of sequences of input words
+Random order of sequences of input words (Mostly reversed)
 
 ## Approaches
 
@@ -86,9 +86,10 @@ Furthermore, we could try and see how a Transformer based decoder would behave i
 * checkpoints for different models
 
 **predictions/**
-1) prediction_self_att.txt  # Predictions after 3 epochs by following Approach 4
-
-
+1) prediction_self_att.txt  # Predictions after 3 epochs by following Approach 4(no reverse inputs of scrambled words) -- lets see if model can learn to reverse 
+2)predictions_self_attention_lstm_reversed.txt  # Predictions that I got by reversing the scrambled input and passing it to through LSTM encoder.(Approach 2)
+3) predictions_self_attention_reversed.txt   # Similar to approach 4 but here I sent reversed scrambled input(as scrambles were in almost reversed nature)
+4) baseline.txt  #  basline which is formed by reversing all the scrambled words
 **scripts/**:
 - model.py  # code that has all the models (AttentiveEncoderPOS, BahdanauDecoder,AttentiveEncoder)   
 - self_attention.py  # custom self attention layer  
@@ -121,3 +122,9 @@ NLTK
 2) https://nlp.seas.harvard.edu/2018/04/03/attention.html
 3) https://www.aclweb.org/anthology/W17-3531.pdf
 
+
+
+### NOTE:
+**Please note that I pushed two more predictions files into the predictions folder after the deadline. 
+I did not make any changes to the code after the deadline. These new prediction files were produced from models that did not finish traning while deadline ended.  
+I also made minute changes in README file**
